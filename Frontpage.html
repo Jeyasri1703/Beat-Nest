@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat Tsen - Music App</title>
+    <link rel="stylesheet" href="style.css">
+     <script>
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+</head>
+<body>
+
+    <!-- Background Video / Gradient -->
+    <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4">
+        <!-- fallback -->
+    </video>
+
+    <!-- Front Page Container -->
+    <div class="front-container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="./Black and Yellow Modern Music Club Logo (1).png" alt="Beat Tsen Logo">
+        </div>
+
+        <!-- Tagline -->
+        <p class="tagline">Catch the vibe own the moment🎧</p>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <a href="login.html" class="btn">Login</a>
+            <a href="signup.html" class="btn btn-alt">Sign Up</a>
+        </div>
+        <!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-logo">
+    <img src="./Black and Yellow Modern Music Club Logo (1).png" alt="Beat Tsen Logo">
+    <h1>Beat Nest</h1>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Tamil.html">Playlist</a></li>
+    <li><a href="footer.html">Contact</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="signup.html">Sign Up</a></li>
+  </ul>
+
+  <div class="nav-toggle" id="mobile-menu">&#9776;</div>
+</nav>
+
+    </div>
+
+</body>
+</html>
