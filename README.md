@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Select Language</title>
+    
 </head>
 <body>
 
@@ -35,29 +35,42 @@ Beat Nest is a stylish and responsive music streaming web app built using HTML, 
 <h5>🔄 Dynamic Song Switching –</h5> Smooth transitions between tracks without page reloads.
 
 <h1>🛠️ Tech Stack<h1></h1>
-  <div>
-  <ul class=list>Technology	Description
-<li>Structure of the app</li>	
-<li>CSS3	Styling, layout, and responsiveness</li>
-<li>JavaScript (ES6)	Interactivity and audio player functionality</li>
-<li>Ionicons / FontAwesome	Beautiful icons for buttons and UI elements</li>
-  </ul>
-  </div>
+    <div>
+   <tr>
+    <th>Technology</th>
+    <th>Description</th>
+    
+  </tr>
+  <tr>
+    <td>HTML5</td>
+    <td>CSS3</td>
+    <td>JavaScript (ES6)</td>
+      <td>Ionicons / FontAwesome</td>
+  </tr>
+  <tr>
+    <td>Structure of the app</td>
+    <td>Styling, layout, and responsiveness</td>
+    <td>Interactivity and audio player functionality</td>
+      <td>Beautiful icons for buttons and UI elements</td>
+  </tr>
+</table>
+</div>
 
 <h1>📁 Project Structure</h1>
+
 BeatNest/
 │
-├── index.html           # Main landing page
-├── actor.html           # Actor playlist page
-├── musician.html        # Musician playlist page
-├── movies.html          # Movie playlist page
-├── style.css            # Global styling file
-├── script.js            # Music controls and interactivity
+├── index.html           # Main landing page<br>
+├── actor.html           # Actor playlist page<br>
+├── musician.html        # Musician playlist page<br>
+├── movies.html          # Movie playlist page<br>
+├── style.css            # Global styling file<br>
+├── script.js            # Music controls and interactivity<br>
 ├── assets/
-│   ├── images/          # App images, icons, and thumbnails
-│   ├── audio/           # Song files
-│   └── video/           # Background videos (if used)
-└── README.md            # Project documentation
+│   ├── images/          # App images, icons, and thumbnails<br>
+│   ├── audio/           # Song files<br>
+│   └── video/           # Background videos (if used)<br>
+└── README.md            # Project documentation<br>
 
 <h1>⚙️ How to Run the Project</h1>
 
